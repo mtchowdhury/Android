@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="10">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="15"
+            android:layout_width="0px"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:textSize="11.0sp"
+                    android:id="@+id/fromDate"
+                    android:background="@color/colorAccent"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:text="from date"
+                    android:layout_weight="1.0" />
+                <Button
+                    android:textSize="11.0sp"
+                    android:id="@+id/toDate"
+                    android:background="@color/colorAccent"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:text="to date"
+                    android:layout_weight="1.0" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Spinner
+                    android:paddingLeft="5dp"
+                    android:id="@+id/catFilterSpinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0" />
+                <Spinner
+                    android:id="@+id/subcatFilterSpinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_weight="5"
+            android:layout_width="0px"
+            android:layout_height="wrap_content">
+            <Button
+
+                android:textSize="10.0sp"
+                android:id="@+id/refreshExpenseList"
+                android:background="@color/colorAccent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Filter"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="50">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        </FrameLayout>
+    </LinearLayout>
+
+
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="10">
+        <TextView android:textSize="12.0sp" android:textStyle="bold" android:gravity="center" android:id="@+id/subTotalTV" android:background="@color/colorWhite" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="test" android:textAllCaps="true" />
+    </LinearLayout>
+</LinearLayout>

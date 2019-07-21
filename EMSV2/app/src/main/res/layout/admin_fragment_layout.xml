@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/colorWhite" android:paddingLeft="7.0dip" android:paddingTop="35.0dip" android:paddingRight="7.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/border" android:padding="7.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="20.0sp" android:textStyle="bold" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Category Configuration" />
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <EditText android:textSize="10.0sp" android:id="@+id/catadminET" android:layout_width="0.0dip" android:layout_height="fill_parent" android:hint="Category Name" android:layout_weight="3.0" android:inputType="text" />
+                <Button android:textSize="10.0sp" android:id="@+id/saveCategory" android:background="@color/colorAccent" android:layout_width="0.0dip" android:layout_height="30.0dip" android:layout_marginRight="10.0dip" android:text="add" android:layout_weight="1.0" />
+                <Button android:textSize="10.0sp" android:id="@+id/getCategory" android:background="@color/colorAccent" android:layout_width="0.0dip" android:layout_height="30.0dip" android:text="show all" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/border" android:padding="7.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="20.0sp" android:textStyle="bold" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="SubCategory Configuration" />
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Spinner android:id="@+id/catSpinneradmin" android:paddingLeft="9.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                <EditText android:textSize="10.0sp" android:id="@+id/subcatETadmin" android:layout_width="0.0dip" android:layout_height="wrap_content" android:hint="SubCategory Name" android:layout_weight="2.0" android:inputType="text" />
+                <Button android:textSize="10.0sp" android:id="@+id/saveSubCategory" android:background="@color/colorAccent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="10.0dip" android:text="add" android:layout_weight="1.0" />
+                <Button android:textSize="10.0sp" android:id="@+id/getSubCategory" android:background="@color/colorAccent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="show all" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/border" android:padding="7.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="20.0sp" android:textStyle="bold" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Balance Configuration" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="3.0">
+                <LinearLayout android:orientation="horizontal" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                    <TextView android:textSize="10.0sp" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="Date" android:layout_weight="1.0" />
+                    <Button android:textSize="10.0sp" android:id="@+id/bldateBtn" android:background="@color/colorAccent" android:layout_width="0.0dip" android:layout_height="25.0dip" android:layout_marginRight="10.0dip" android:text="set" android:layout_weight="1.0" />
+                    <TextView android:textSize="10.0sp" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="Source" android:layout_weight="1.0" />
+                    <Spinner android:gravity="center" android:layout_gravity="center" android:id="@+id/blsourceSpinneradmin" android:paddingLeft="9.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                    <EditText android:textSize="10.0sp" android:id="@+id/bldescriptionET" android:layout_width="0.0dip" android:layout_height="wrap_content" android:hint="description" android:layout_weight="2.0" android:inputType="text" />
+                    <EditText android:textSize="10.0sp" android:id="@+id/blamountET" android:layout_width="0.0dip" android:layout_height="wrap_content" android:hint="balance amount" android:layout_weight="2.0" android:inputType="numberDecimal|numberSigned" />
+                    <Button android:textSize="10.0sp" android:id="@+id/bladdAdminBtn" android:background="@color/colorAccent" android:layout_width="0.0dip" android:layout_height="25.0dip" android:layout_marginRight="10.0dip" android:text="Add" android:layout_weight="1.0" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/border" android:padding="7.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="20.0sp" android:textStyle="bold" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Adjust Balance" />
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Spinner android:id="@+id/sourceToAdjustSpinneradmin" android:paddingLeft="9.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                <EditText android:textSize="10.0sp" android:id="@+id/amountadjustET" android:layout_width="0.0dip" android:layout_height="wrap_content" android:hint="Account Balance" android:layout_weight="2.0" android:inputType="numberDecimal|numberSigned" />
+                <Button android:textSize="10.0sp" android:id="@+id/saveAdjust" android:background="@color/colorAccent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="10.0dip" android:text="adjust" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/border" android:padding="7.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="20.0sp" android:textStyle="bold" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="BackUp Restore" />
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:textSize="10.0sp" android:id="@+id/backup" android:background="@color/colorAccent" android:layout_width="0.0dip" android:layout_height="25.0dip" android:layout_marginRight="10.0dip" android:text="Backup" android:layout_weight="1.0" />
+                <Button
+                    android:textSize="10.0sp"
+                    android:id="@+id/restore"
+                    android:background="@color/colorAccent" android:layout_width="0.0dip" android:layout_height="25.0dip" android:text="Restore" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

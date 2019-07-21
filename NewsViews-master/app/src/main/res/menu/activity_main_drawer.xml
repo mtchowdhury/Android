@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_breaking_news"
+            android:icon="@drawable/breaking_news"
+            android:title="Breaking News" />
+        <item
+            android:id="@+id/nav_bbc"
+            android:icon="@drawable/bbc"
+            android:title="BBC" />
+        <item
+            android:id="@+id/nav_cnbc"
+            android:icon="@drawable/cnbc"
+            android:title="CNBC" />
+        <item
+            android:id="@+id/nav_engadget"
+            android:icon="@drawable/engadget"
+            android:title="Engadget" />
+        <item
+            android:id="@+id/nav_espn"
+            android:icon="@drawable/espn"
+            android:title="ESPN" />
+        <item
+            android:id="@+id/nav_fox_news"
+            android:icon="@drawable/fox_news"
+            android:title="FOX NEWS" />
+        <item
+            android:id="@+id/nav_ign"
+            android:icon="@drawable/ign"
+            android:title="IGN" />
+    </group>
+
+
+
+</menu>

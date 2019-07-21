@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">NewsViews</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_introduction">IntroductionActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_main">News</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+
+    <string name="facebook_app_id">744542852611733</string>
+    <string name="fb_login_protocol_scheme">fb744542852611733</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="news_corporation">News Corporation</string>
+    <string name="search_here">search here</string>
+    <string name="title_activity_search_results">SearchResultsActivity</string>
+    <string name="logout">Logout</string>
+
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="start">Start</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="my_name">Md. Mahfujur Rahman</string>
+    <string name="learning">Learning</string>
+    <string name="be_curious_not_judgmental">Be curious, not judgmental.</string>
+    <string name="i_love_to_read_books">I Love to Read Books</string>
+    <string name="good_friends_good_books_and_a_sleepy_conscience_this_is_the_ideal_life">Good friends, good books, and a sleepy conscience: this is the ideal life.</string>
+    <string name="technology">Technology</string>
+    <string name="imagination">Imagination is more important than knowledge</string>
+    <string name="i_am_working">I am working as a Assistant Software Engineer at ASA about 2 years</string>
+
+</resources>
